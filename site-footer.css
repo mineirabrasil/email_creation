@@ -1,0 +1,31 @@
+footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 600px;
+    font-size: 10pt;
+}
+
+footer a {
+    text-decoration: underline rgb(0, 102, 255);
+    color:  rgb(0, 102, 255);
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer p+a+p {
+    /*border: solid 1px green;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer img {
+    /*border: solid 1px green;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 10%;
+}
